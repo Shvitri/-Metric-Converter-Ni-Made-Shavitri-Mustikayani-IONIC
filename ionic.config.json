@@ -1,0 +1,7 @@
+{
+  "name": "matric-converter",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
