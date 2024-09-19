@@ -1,0 +1,90 @@
+/* Home.css */
+.home-page {
+  --background: #121212; /* Dark background */
+  height: 100vh; /* Full height to ensure the page takes the full viewport */
+  display: flex;
+  flex-direction: column;
+}
+
+.header-toolbar {
+  --background: #2979ff; /* Bright blue for the header */
+}
+
+.header-title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.credit-text {
+  text-align: center;
+  color: #a1a1a1;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.content-container {
+  --background: #121212;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100%; /* Take full height of the page */
+}
+
+.converter-box {
+  background-color: #1e1e1e; /* Dark box for the form */
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 450px;
+  text-align: left; /* Align content to the left inside the box */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+.input-item {
+  --background: #2c2c2c;
+  --border-color: transparent;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.input-label {
+  color: #a1a1a1;
+  font-size: 1rem;
+}
+
+.from-to-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.from-item, .to-item {
+  flex: 1;
+}
+
+.convert-button {
+  --background: #2979ff;
+  color: white;
+  width: 100%;
+  height: 45px;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.convert-button:hover {
+  --background: #1e6aff; /* Slight hover effect */
+  transition: background-color 0.3s ease;
+}
+
+.result-text {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+}
